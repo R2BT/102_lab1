@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int N,a,b;
-    scanf("%d",&N);
+    long long N,a,b;
+    scanf("%lld",&N);
     a=N%3;
     b=N%11;
-    printf("%d %d",a,b);
+    printf("%lld %lld",a,b);
 
     return 0;
 }
